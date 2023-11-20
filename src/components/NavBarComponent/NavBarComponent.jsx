@@ -20,7 +20,6 @@ const NavBarComponent = () => {
                  Cumbia
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Pop</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Rap
               </NavDropdown.Item>
