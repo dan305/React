@@ -13,7 +13,7 @@ const ItemListContainer = ({ products }) =>{
   
         {products.map((product) => {
           return (
-            <Card key={product.id} style={{ width: "18rem", margin: 20 }}>
+            <Card key={product.id} style={{ width: "18rem", margin: 20, height: "550px" }}>
                 <Card.Img variant="top" src={product.thumbnail} />
               <Card.Body>
                 <Card.Title>{product.title}</Card.Title>
